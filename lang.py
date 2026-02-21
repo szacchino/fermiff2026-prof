@@ -9,6 +9,6 @@ llm = init_chat_model(userdata.get("MODEL")
     , api_key=userdata.get("CEREBRAS")
     )
 
-risposta = llm.invoke("Chi è Marzia Polito e perché è importante per l'AI? Rispondi brevemente")
+risposta = llm.invoke("Chi è Anders Hejlsberg e perché è importante per l'AI? Rispondi brevemente")
 
 print (risposta.content)
