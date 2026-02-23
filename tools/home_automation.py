@@ -22,9 +22,3 @@ def get_stato_porta():
     """restituisce lo stato in cui si trova la porta di casa che può essere APERTA o CHIUSA"""
     print("CHIAMATO get_stato_porta")
     return stato_casa["porta"]
-
-
-def richiesta_informazioni(message):
-    """consente di chiedere all'utente delle conferme o se desidera chiederti qualcosa"""
-    print (f"\nLOOPO:\n{message}\n")
-    return input("UTENTE\n")
