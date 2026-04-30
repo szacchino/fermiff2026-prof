@@ -1,0 +1,25 @@
+{
+	"$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+	"name": "Python 3",
+	"image": "mcr.microsoft.com/devcontainers/python:3-3.14-trixie",
+	"features": {
+		"ghcr.io/devcontainer-community/devcontainer-features/astral.sh-uv:1": {
+			"version": "latest",
+			"shellautocompletion": false
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": ["ms-python.python",
+        "ms-python.black-formatter",
+        "ms-python.flake8",
+        "batisteo.vscode-django",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-pg",
+        "shd101wyy.markdown-preview-enhanced",
+        "ms-vscode.sublime-keybindings"
+],
+			"settings": {}
+		}
+	}
+}
